@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+body {
+    background: #1c0b2c;
+    color: aliceblue;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 25px;
+    font-weight: 500;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+    margin-left: 25px;
+    transition: .3s;
+    text-decoration: none;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: #8f3ade;
+}
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-content {
+    background: transparent;
+    max-width: 600px;
+}
+.home-content h1 {
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 0.3rem;
+}
+.home-content h3 {
+    color: #8f3ade;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.home-content p {
+    font-size: 15px;
+    margin-bottom: 0.3rem;
+}
+.home-content .btn {
+    
+    width: 150px;
+    height: 50px;
+    background: transparent
+    
+    
+}
+   
+.btn a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #8f3ade;
+    text-decoration: none;
+    color: #000000;
+    border: 2px #8f3ade;
+    border-radius: 8px;
+    font-size: 28px;
+    font-weight: 600;
+    
+}

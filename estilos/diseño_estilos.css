@@ -66,6 +66,19 @@ body {
     font-size: 15px;
     margin-bottom: 0.3rem;
 }
+.home-content ul {
+    background-color: #8f3ade; 
+    border: 2px solid #8f3ade;    
+    border-radius: 10px;        
+    padding: 10px;             
+    list-style-type: none;  
+    width: 150px;   
+}
+
+ul li {
+    padding: 5px 0; 
+    margin-bottom: 10px;          
+}
 .home-content .btn {
     
     width: 150px;
